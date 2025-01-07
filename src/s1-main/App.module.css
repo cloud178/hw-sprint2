@@ -1,11 +1,18 @@
 .App {
     --header_height: 60px;
+    width: 1280px;
 }
 
 .hw {
-
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 1280px;
+    padding: 24px 70px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
 }
 
 .hwTitle {
-
+    width: 1280px;
 }

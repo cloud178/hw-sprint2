@@ -1,18 +1,43 @@
 .sendForm {
-
+    display: flex;
+    gap: 44px;
 }
 
 .textarea {
+    display: inline-block;
+    width: 976px;
+    height: 48px;
+    border-radius: 20px;
+    vertical-align: middle;
+    resize: none;
+    padding-left: 24px;
+    line-height: 40px;
+    font-size: 14px;
+    overflow: hidden;
 
+}
+
+.textarea::placeholder {
+    opacity: 60%;
+    line-height: 40px;
+    font-size: 14px;
 }
 
 .button {
-
+    background-color: #0066CC;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    vertical-align: middle; /* Вертикальное выравнивание */
 }
 
 .button:hover {
-
+    cursor: pointer;
 }
+
 .button:active {
 
 }

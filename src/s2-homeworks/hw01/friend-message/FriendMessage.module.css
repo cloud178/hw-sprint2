@@ -1,16 +1,28 @@
 .friendMessage {
-
+    display: flex;
+    flex-direction: column;
+    height: 77px;
 }
 
 .friendImageAndText {
-
+    display: flex;
+    height: 60px;
+    align-items: flex-end;
+    gap: 14px;
 }
 
 .friendImageAndText img {
+    height: 48px;
 
 }
 
 .friendText {
+    background-color: #F5F7FB;
+    color: black;
+    height: 60px;
+    border-radius: 10px;
+    padding: 8px 13px;
+
 
 }
 

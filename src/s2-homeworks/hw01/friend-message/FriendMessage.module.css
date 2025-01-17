@@ -22,12 +22,19 @@
     height: 60px;
     border-radius: 10px;
     padding: 8px 13px;
-
-
+    position: relative;
 }
 
-.friendText:after {
-
+.friendText::after {
+    content: ''; /* Псевдоэлемент пустой, используется для фигуры */
+    position: absolute;
+    bottom: 0; /* Расположен снизу блока */
+    left: -10px; /* Смещаем стрелочку вправо за границы блока */
+    width: 0;
+    height: 0;
+    border-width: 10px; /* Размер стрелочки */
+    border-style: solid;
+    border-color: transparent transparent #F5F7FB transparent; /* Нижний треугольник синий, остальные прозрачные */
 }
 
 .friendName {
@@ -39,5 +46,7 @@
 }
 
 .friendTime {
-
+    font-size: 10px;
+    font-weight: 600;
+    padding-left: 11px;
 }

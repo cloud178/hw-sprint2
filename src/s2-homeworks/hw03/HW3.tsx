@@ -50,7 +50,6 @@ const HW3 = () => {
                     addUserCallback={addUserCallback}
                 />
             </div>
-            Hello!!!!
         </div>
     )
 }

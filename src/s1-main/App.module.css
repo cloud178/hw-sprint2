@@ -14,7 +14,13 @@
 }
 
 .hwTitle {
-    width: 1280px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.82px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
+
 
 /*todo CSS hw-1 доделать*/

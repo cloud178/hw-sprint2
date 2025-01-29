@@ -2,19 +2,38 @@
 }
 
 .input {
+    width: 372px;
+    height: 36px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
 }
 
 .inputWrapper {
+    position: relative;
 }
 
 .superInput {
 }
 
 .errorInput {
+    border-color: red;
 }
 
 .errorInput:focus {
+    border-color: red;
 }
 
 .error {
+    display: block;
+    color: red;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.19px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: absolute;
+    bottom: 41px;
 }

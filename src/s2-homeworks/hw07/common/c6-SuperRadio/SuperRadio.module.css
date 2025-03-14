@@ -1,7 +1,14 @@
 .radio {
+    /*display: none;*/
 }
 
-.radio::before {
+.customRadio {
+    /*width: 10px;*/
+    /*height: 10px;*/
+    /*border: 1px solid #000000;*/
+    /*border-radius: 50%;*/
+    /*display: flex;*/
+    /*position: relative;*/
 }
 
 
@@ -9,7 +16,37 @@
 }
 
 .label {
+    display: flex;
+    align-items: center;
+    gap: 11px;
 }
 
 .options {
 }
+
+.para {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*gap: 11px;*/
+}
+
+.customRadio::before {
+    /*content: "";*/
+    /*width: 6px;*/
+    /*height: 6px;*/
+    /*background-color: #000000;*/
+    /*border-radius: 50%;*/
+    /*transition: transform 0.2s ease-in-out;*/
+    /*position: absolute;*/
+    /*left: 1px;*/
+    /*top: 1px;*/
+    /*opacity: 0;*/
+}
+
+.label:has(.radio:checked) .customRadio::before {
+    /*opacity: 1;*/
+}
+
+
+
+

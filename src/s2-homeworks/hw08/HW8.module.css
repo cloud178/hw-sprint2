@@ -1,23 +1,64 @@
 .item {
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .item:last-of-type {
 }
 
 .users {
+
+    width: 606px;
+    display: flex;
+    flex-direction: column;
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
 }
 
 .container {
+    width: 606px;
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
 }
 
 .thead {
+    background-color: #E5E5E5;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    line-height: 100%;
+    letter-spacing: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    vertical-align: middle;
+
+}
+
+.thead  .nameCol {
+    font-weight: 600;
 }
 
 .nameCol {
+    padding-left: 17px;
+    display: table-cell; /* Делаем ячейку табличной */
+    vertical-align: middle; /* Центрирование по вертикали */
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
 }
 
 .ageCol {
+    text-align: center; /* Центрирование текста */
+    display: table-cell; /* Делаем ячейку табличной */
+    vertical-align: middle; /* Центрирование по вертикали */
+    width: 475px; /* Фиксируем ширину (можно подстроить) */
+}
+
+.thead .ageCol {
+    padding-left: 26px;
 }

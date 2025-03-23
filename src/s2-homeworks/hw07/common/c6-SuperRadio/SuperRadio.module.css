@@ -1,5 +1,5 @@
 .radio {
-    /*display: none;*/
+    display: none;
 }
 
 .customRadio {
@@ -12,7 +12,11 @@
 }
 
 
-.radio:checked::before {
+.radio::before {
+    display: block;
+    width: 10px;
+    height: 10px;
+    color: black;
 }
 
 .label {

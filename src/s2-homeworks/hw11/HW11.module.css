@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .wrapper {
+    display: flex;
+    gap: 12px;
 }
 
 .number {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0;
+    display: inline-block;
+    width: 30px;
+    text-align: right;
 }

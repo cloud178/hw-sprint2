@@ -1,3 +1,11 @@
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 .loader {
-    /*свг и/или анимация*/
+    animation: spin 1s linear infinite;
+    width: 108px;
+    height: 108px;
 }

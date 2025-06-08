@@ -11,6 +11,7 @@ import avatar from './avatar.png'
 * 3 - в файле Message.tsx отобразить приходящие данные
 * 4 - выполнить пункты 2, 3 в файле FriendMessage.tsx
 * 5 - сделать стили в соответствии с дизайном
+* heheeh
 * */
 
 type UserType = {
